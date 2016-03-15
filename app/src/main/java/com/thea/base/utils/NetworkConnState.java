@@ -20,13 +20,13 @@ public class NetworkConnState {
         if (cm != null) {
             NetworkInfo info = cm.getActiveNetworkInfo();
             if (info != null)
-                return info.isConnected();
+                return info.isAvailable();
         }
         return false;
     }
 
     /**
-     * get the connected type.
+     * Get the connected type.
      * @param context
      * @return
      */
