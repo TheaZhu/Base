@@ -1,4 +1,4 @@
-package com.thea.base.utils;
+package com.thea.base.util;
 
 import android.content.Context;
 
